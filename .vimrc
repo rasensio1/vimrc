@@ -38,9 +38,6 @@ nmap <silent> <c-l> :wincmd l<CR>
 "NERDTree open
 nmap <c-n> :NERDTree<cr>
 
-"Open .vimrc
-nmap <c-m> :vsp $MYVIMRC<cr>
-
 "Find and replace
 nmap <c-f> :%s/
 
@@ -48,4 +45,7 @@ nmap <c-f> :%s/
 imap <c-d> <div class=""></div><Esc>7h<Esc>i
 imap <c-a> <a class=""></a><Esc>5h<Esc>i
 imap <c-e> <%= %><Esc>2h<Esc>i
+
+"full closures
+:inoremap ( ()<Esc>i
  
