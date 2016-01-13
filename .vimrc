@@ -48,4 +48,6 @@ imap <c-e> <%= %><Esc>2h<Esc>i
 
 "full closures
 :inoremap ( ()<Esc>i
+:inoremap { {}<Esc>i
+:inoremap [ []<Esc>i
  
